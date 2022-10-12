@@ -18,7 +18,7 @@ import java.util.List;
 
 @Component
 public class DatabaseSeeder {
-    //private Logger logger = Logger.getLogger(DatabaseSeeder.class);
+//    private Logger logger = Logger.getLogger(DatabaseSeeder.class);
 
     @Autowired
     private AccountRepository accountRepository;

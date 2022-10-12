@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
-@Profile("test")
+//@Profile("test")
 class FixedDepositControllerTest {
     private FixedDepositController mockFixedDepositController;
     private FixedDepositService mockFixedDepositService;

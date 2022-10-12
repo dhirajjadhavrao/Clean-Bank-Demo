@@ -6,7 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
 
-@Profile("test")
+//@Profile("test")
 public interface AccountRepository extends CrudRepository<Account, Integer> {
     public List<Account> findAllByBranchBranchCode(int branchCode);
     public Account findByAccountNumber(int accountNumber);

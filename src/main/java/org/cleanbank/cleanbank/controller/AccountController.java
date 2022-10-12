@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@Profile("test")
+//@Profile("test")
 @RestController
 public class AccountController {
     @Autowired

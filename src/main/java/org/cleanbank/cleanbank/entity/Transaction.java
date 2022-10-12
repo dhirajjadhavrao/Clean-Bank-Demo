@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Profile;
 
 import javax.persistence.*;
 
-@Profile("test")
+//@Profile("test")
 @Entity
 public class Transaction {
     @Id

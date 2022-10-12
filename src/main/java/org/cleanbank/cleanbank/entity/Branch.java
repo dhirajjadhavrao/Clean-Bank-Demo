@@ -3,7 +3,7 @@ package org.cleanbank.cleanbank.entity;
 import org.springframework.context.annotation.Profile;
 
 import javax.persistence.*;
-@Profile("test")
+//@Profile("test")
 @Entity
 public class Branch {
     @Id
