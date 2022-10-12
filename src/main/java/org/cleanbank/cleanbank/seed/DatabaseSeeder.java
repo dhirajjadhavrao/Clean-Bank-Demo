@@ -1,11 +1,11 @@
-package com.springboot.docker.seed;
+package org.cleanbank.cleanbank.seed;
 
-import com.springboot.docker.entity.Account;
-import com.springboot.docker.entity.Branch;
-import com.springboot.docker.repository.AccountRepository;
-import com.springboot.docker.repository.BranchRepository;
-import com.springboot.docker.repository.FixedDepositRepository;
-import com.springboot.docker.repository.TransactionRepository;
+import org.cleanbank.cleanbank.entity.Account;
+import org.cleanbank.cleanbank.entity.Branch;
+import org.cleanbank.cleanbank.repository.AccountRepository;
+import org.cleanbank.cleanbank.repository.BranchRepository;
+import org.cleanbank.cleanbank.repository.FixedDepositRepository;
+import org.cleanbank.cleanbank.repository.TransactionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;
