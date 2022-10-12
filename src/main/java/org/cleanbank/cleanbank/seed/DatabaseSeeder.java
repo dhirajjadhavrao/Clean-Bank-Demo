@@ -11,14 +11,14 @@ import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
 
 import java.util.Arrays;
 import java.util.List;
 
 @Component
 public class DatabaseSeeder {
-    private Logger logger = Logger.getLogger(DatabaseSeeder.class);
+    //private Logger logger = Logger.getLogger(DatabaseSeeder.class);
 
     @Autowired
     private AccountRepository accountRepository;
@@ -49,17 +49,17 @@ public class DatabaseSeeder {
         List<Branch> branches = (List<Branch>) branchRepository.findAll();
         if(branches == null || branches.size() <= 0){
             branchRepository.saveAll(Arrays.asList(mumbai, pune));
-            logger.info("Branch table is seeded !");
+            //logger.info("Branch table is seeded !");
         } else {
-            logger.info("Branch Seeding Not Required !");
+            //logger.info("Branch Seeding Not Required !");
         }
 
         List<Account> accounts = (List<Account>) accountRepository.findAll();
         if(accounts == null || accounts.size() <= 0){
             accountRepository.saveAll(Arrays.asList(accountOne, accountTwo, accountThree, accountFour));
-            logger.info("Account table is seeded !");
+            //logger.info("Account table is seeded !");
         } else {
-            logger.info("Account Seeding Not Required !");
+            //logger.info("Account Seeding Not Required !");
         }
     }
 }
