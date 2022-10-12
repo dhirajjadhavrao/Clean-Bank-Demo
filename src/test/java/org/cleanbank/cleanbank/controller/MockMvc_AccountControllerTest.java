@@ -28,7 +28,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @WebMvcTest(AccountController.class)
-@Profile("test")
+//@Profile("test")
 class MockMvc_AccountControllerTest {
 
     @Autowired

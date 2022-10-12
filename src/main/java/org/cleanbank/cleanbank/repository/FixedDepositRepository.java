@@ -6,7 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
 
-@Profile("test")
+//@Profile("test")
 public interface FixedDepositRepository extends CrudRepository<FixedDeposite, Integer> {
    public   List<FixedDeposite> findAllByAccountBranch(int branchCode);
 
